@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>Wedding Invitation Designer</title>
+    
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+    <script src="index.js"></script>
+  </head>
+  
+  <body>
+    <header>
+      <h2>Wedding Invitation Designer</h2>
+    </header>
+      <div id="left">
+        <div id="invitetypes">
+          <div onclick="blueInvite()" id="blue">Blue</div>
+          <div onclick="blackInvite()" id="black">Black</div>
+          <div onclick="greenInvite()" id="green">Green</div>
+        </div>
+        <div id="form">
+          <form>
+            1st name:<br>
+            <input type="text" name="firstname" placeholder="Bride's Name" onkeyup="firstName()" value="" id="formfirstname"><br><br>
+            2nd name:<br>
+            <input type="text" name="secondname"placeholder="Groom's Name" onkeyup="secondName()" value="" id="formsecondname"><br><br>
+            Last name:<br>
+            <input type="text" name="lastname" placeholder="Last name" onkeyup="lastName()" value="" id="formlastname"><br><br>
+            Date:<br>
+            <input type="text" name="adddate" placeholder="Date" onkeyup="addDate()" value="" id="formdate"><br><br>
+            Location:<br>
+            <input type="text" name="addlocation" placeholder="Location of wedding" onkeyup="addLocation()" value="" id="formlocation"><br><br>
+          </form>
+        </div>
+      </div>
+      <div id="right">
+         <img src="https://i.ibb.co/4fHB8nW/Blue-Wedding-Invitation-1.png" alt="Blue-Wedding-Invitation" border="0" id="image">
+         <div id="addnameone"></div>
+         <div id="addnametwo"></div>
+         <div id="addlastname"></div>
+         <div id="adddate"></div>
+         <div id="location"></div>
+      </div>
+  </body>
+</html>
