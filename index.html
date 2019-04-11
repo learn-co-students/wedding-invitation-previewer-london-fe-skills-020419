@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Wedding Invitation Creator</title>
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Marmelad|Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>Create Your Wedding Invitations</header>
+    <div class="flex-container">
+    <div id="main">
+        <section class="item" align="center">
+          <p id="pick">Pick the style of your wedding invitation:</p>
+          <button id="button1" class="button">Traditional</button>
+          <button id="button2" class="button">Adventure</button>
+          <button id="button3" class="button">Arty</button>
+          <p></p>
+          <form>
+            <div class="flex-container2">
+              <h3>Insert the text for your invitation</h3>
+              <div class="formItem">
+                <label class="mylabel" for="first-name">Please join us for the wedding of:</label><br>
+                <input type="text" name="first-name" id="firstName" placeholder="First person"><br>
+              </div>
+                <div class="formItem">
+                <label class="mylabel" for="second-name">And:</label><br>
+                <input type="text" name="second-name" id="secondName" placeholder="Second person"><br>
+              </div>
+              <div class="formItem">
+                <label class="mylabel" for="date">Wedding date:</label><br>
+                <input type="text" name="date" id="date" placeholder="Date"><br>
+              </div>
+              <div class="formItem">
+                <label class="mylabel" for="location">Wedding location:</label><br>
+                <input type="text" name="location" id="location" placeholder="Wedding location"><br>
+              </div>
+            </div>
+          </form>
+        </section>
+        <section class="item">
+          <div id="preview" class="default">
+            <h1>Please join us for the wedding of</h1>
+            <h1>
+            <span id="name1"></span>
+            <span>&</span> 
+            <span id="name2"></span>
+            </h1>
+            <p></p>
+            <h1>On</h1>
+            <h1 id="formDate"></h1>
+            <p></p>
+            <h1>At</h1>
+            <h1 id="formLocation"></h1>
+          </div>
+        </section>
+    </div>  
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+.html,
+body {
+  margin:0;
+  padding:0;
+  background-image: url("https://images.unsplash.com/photo-1532713031318-db2d14e4b3e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=700");
+  background-size: cover;
+}
+
+#main {
+  display: flex;
+  font-family: Bookman Old Style;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.flex-container {
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+header {
+ font-family: Century;
+ font-size: 36px;
+ font-weight: bold;
+ text-align:  center;
+ padding: 20px 0 0 0;
+ color: 	#FE6F5E;
+ margin-bottom: 10px;
+}
+
+.button {
+	background-color: green;
+	border-radius:110px;
+	display:inline-block;
+	color:#FFBF00;
+	font-family:Cursive;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 28px;
+}
+
+.magic_button:active {
+	position:relative;
+	top:1px;
+}
+
+
+form {
+  font-size: 18px;
+  align-items: center;
+}
+
+.flex-container2 {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  flex-direction: column;
+}
+
+.formItem {
+  flex-basis: 12%;
+  margin: 10px 0 0 10px;
+  height: 12px;
+  text-align: center;
+}
+
+.item {
+  flex-basis: 50em;
+  height: 700px;
+  width: 540px;
+  margin-right: 2px;
+  margin-left: 2px;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1485700281629-290c5a704409?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+
+}
+
+
+#preview {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 61%;
+  height: 520px;
+  text-align: center;
+  padding: 90px 140px;
+}
+
+#pick {
+  color: black;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 42px;
+  color:  #000;
+}
+
+h2 {
+font-size: 38px;
+color: #996633;
+}
+
+.traditional, .default {
+ background-image: url("https://images.unsplash.com/photo-1537709815788-0d6dcb0dcfe5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=602&q=80");
+ font-family: 'Tangerine', cursive;
+ color: #ff0066;
+}
+
+
+.adventure {
+  
+  background-image: url("https://images.unsplash.com/photo-1497531551184-06b252e1bee1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");
+}
+
+.adventure h1 {
+  color: White;
+  font-size: 32px;
+  font-family: 'Pacifico', cursive;
+}
+
+.arty {
+  background-image: url("https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  }
+
+.arty h1 {
+  color: purple;
+  font-size: 30px;
+  font-family: 'Anonymous Pro', Italic;
+}
+
